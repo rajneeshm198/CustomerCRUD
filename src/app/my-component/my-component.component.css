@@ -1,0 +1,26 @@
+form {
+    padding: 30px;
+    width: 30%;
+    max-width: 350px;
+    margin: auto;
+}
+
+button {
+    color: white;
+    background: #00a9d8;
+    outline: none;
+    border: none;
+    max-width: 230px;
+    padding: 6px 40px;
+    font-weight: 700;
+    margin: 20px 20px 0 0;
+    border-radius: 5px;
+    min-height: 40px;
+    border: 2px solid #00a9d8;
+}
+
+@media only screen and (max-width: 786px) {
+    form {
+        width: 90%;
+    }
+}
